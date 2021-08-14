@@ -14,7 +14,7 @@ export default function App() {
             borderRadius: 20,
           }}
           source={{
-            uri='https://github.com/gabrieldanuz.png'
+            uri:'https://github.com/gabrieldanuz.png'
           }}></Image>
       </View>
       <View>
@@ -24,8 +24,11 @@ export default function App() {
             height: 350,
           }}
           source={{
-            uri='https://github.com/gabrieldanuz.png'
+            uri:'https://github.com/gabrieldanuz.png'
           }}></Image>
+      </View>
+      <View>
+        <Text>Like</Text>
       </View>
       <StatusBar style="auto" />
     </View>
