@@ -5,26 +5,28 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>GabrielD_O</Text>
-      <Image
-        style={{
-          width: 40,
-          height: 40,
-          borderRadius: 20,
-        }}
-        source={{
-          uri='https://github.com/gabrieldanuz.png'
-        }}></Image>
-
-      <Image
-      style={{
-        width: '100%',
-        height: 350,
-      }}
-        source={{
-          uri='https://github.com/gabrieldanuz.png'
-        }}></Image>
-
+      <View>
+        <Text>GabrielD_O</Text>
+        <Image
+          style={{
+            width: 40,
+            height: 40,
+            borderRadius: 20,
+          }}
+          source={{
+            uri='https://github.com/gabrieldanuz.png'
+          }}></Image>
+      </View>
+      <View>
+        <Image
+          style={{
+            width: '100%',
+            height: 350,
+          }}
+          source={{
+            uri='https://github.com/gabrieldanuz.png'
+          }}></Image>
+      </View>
       <StatusBar style="auto" />
     </View>
   );
